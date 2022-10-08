@@ -38,7 +38,8 @@ const cartReducer = (state, action) => {
         else {
             updatedItems = state.items.concat(action.item)
         }
-
+        
+        console.log('')
         console.log('product added')
         console.log(updatedItems)
         console.log('bill: '+updatedTotalAmount)
@@ -67,7 +68,8 @@ const cartReducer = (state, action) => {
         if (state.items[existingCartItemIndex].amount === 0) {
             state.items.splice(existingCartItemIndex, 1)
         }
-
+        
+        console.log('')
         console.log('product removed')
         console.log(state.items)
         console.log('bill: '+totalAmount)
