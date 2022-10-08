@@ -1,0 +1,10 @@
+.spacing{
+    margin: 40px auto;
+    width: 90%;
+    text-align: center;
+    height: auto;
+}
+
+.line{
+    border-top: 3px solid black;
+}

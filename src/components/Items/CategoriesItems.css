@@ -1,0 +1,26 @@
+
+.side{
+    display: inline-block;
+    width: 20%;
+    margin: 10px 10px;
+    height: 260px;
+    text-align: center;
+    background: greenyellow;
+    color: rgb(59, 42, 42);   
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    height: 21%;
+    font: inherit;
+    border-radius: 10px;
+    border:2px solid seagreen;
+    
+}
+
+button:hover{
+    border:2px solid rgb(199, 208, 203);
+    background: seagreen;
+}
